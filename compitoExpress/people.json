@@ -1,0 +1,33 @@
+{
+    "profiles": [
+      {
+        "firstname": "andrea ",
+        "lastname": "zorzi",
+        "bio": "come Il Gigante Gentile”, è una delle figure più ammirate nella storia della pallavolo italiana. Con la sua statura imponente, era una presenza dominante sulla rete, capace di colpire il pallone con una precisione impeccabile.",
+        "eta": "59",
+        "twitter": "https://twitter.com/zorrozorzi",
+        "imgSrc": "/images/andrea zorzi.jpeg",
+        "id": "andrea"
+      },
+   
+      {
+        "firstname": "giba",
+        "lastname": "giba",
+        "bio": "conosciuto anche come “L’Aquila Verde del Brasile”, è un giocatore iconico e amatissimo nel mondo della pallavolo. La sua versatilità gli ha permesso di eccellere sia come schiacciatore che come opposto, dimostrando una notevole padronanza di entrambe le posizioni",
+        "eta": "47",
+        "twitter": "https://twitter.com/",
+        "imgSrc": "/images/giba.jpeg",
+        "id": "giba"
+      },
+   
+      {
+        "firstname": "Lorenzo",
+        "lastname": "zorzi",
+        "bio": "è stato un punto di riferimento per il volley italiano e internazionale negli anni ’90. Con la nazionale italiana, ha vinto ben tre titoli mondiali (1990, 1994, 1998) e ha contribuito alla conquista di numerosi altri trofei.",
+        "eta": "56",
+        "twitter": "https://twitter.com/",
+        "imgSrc": "/images/lorenzo bernardi.jpeg",
+        "id": "lorenzo"
+      }
+    ]
+   }
