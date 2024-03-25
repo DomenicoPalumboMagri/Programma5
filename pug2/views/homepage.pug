@@ -12,8 +12,9 @@ body
             each song in songs
                 .row 
              
-                img(src=`/styles/images/${song.thumbnail}`)
+                img(src=`/images/${song.thumbnail}`)
+                .row 
+
                 h1 #{song.title}
-                h2 #{song.author}
-                h2 #{song.title} - #{song.author}
+                .row
                 a.button(href=`song?id=${song.song_id}`) VISUALIZZA

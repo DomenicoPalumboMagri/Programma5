@@ -12,14 +12,14 @@
 		"title": "rap futuristico",
 		"author": "fibra",
 		"lyrics": "a b",
-		"thumbnail": "b.png"
+		"thumbnail": "rapfutu.jpeg"
 	},
 	{
 		"song_id" : "2",
 		"title": "crudelia",
 		"author": "marra",
 		"lyrics": "eri crudelia demoooon",
-		"thumbnail": "c.png"
+		"thumbnail": "crude.jpg"
 	}
 	]
 }
