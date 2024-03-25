@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title CANZONE
+
+    link(rel='stylesheet', href='/styles/styles.css')
+
+body 
+        .container
+            .row 
+                .col-sm-4 
+                    img(src=`/styles/images/${song.thumbnail}`)
+                .com-sm-6
+                    h1 #{song.title}
+                    h2 #{song.author}
+                    h3 !{song.lyrics}
+       
+            h3
+                a(href="/") home

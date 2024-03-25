@@ -5,7 +5,7 @@ app.set('view engine', 'pug');
 app.use(express.static(__dirname));
 
 app.get('/', function (req, res) {
-    res.render('index', {
+    res.render('homepage', {
         songs: songs.songs
     });
 
@@ -20,7 +20,7 @@ app.get('/song', (req, res) => {
   const song = songs.songs.find((p) => p.song_id === req.query.id);
   res.render('song', {
     song
-  });
+  });z
 });
 
 app.listen(3000, function () {

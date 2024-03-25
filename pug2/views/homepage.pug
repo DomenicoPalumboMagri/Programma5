@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title CANZONI
+    link(rel='stylesheet', href='/styles/styles.css')
+
+body 
+
+        h1.titolo CANZONI
+
+
+            each song in songs
+                .row 
+             
+                img(src=`/styles/images/${song.thumbnail}`)
+                h1 #{song.title}
+                h2 #{song.author}
+                h2 #{song.title} - #{song.author}
+                a.button(href=`song?id=${song.song_id}`) VISUALIZZA
