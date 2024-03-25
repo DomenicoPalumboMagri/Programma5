@@ -1,0 +1,25 @@
+{
+	"songs": [
+	{
+		"song_id" : "0",
+		"title": "aaaaaaaaaaaaaaaaaaa",
+		"author": "artistaaaaaaa",
+		"lyrics": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>aa<br>aaaaaa<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+		"thumbnail": "a.png"
+	},
+	{
+		"song_id" : "1",
+		"title": "bbbbbbbbbbbbbbb",
+		"author": "bartistaaaaaaa",
+		"lyrics": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>aa<br>aaaaaa<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+		"thumbnail": "b.png"
+	},
+	{
+		"song_id" : "2",
+		"title": "cccccccccccc",
+		"author": "cartistaaaaaaa",
+		"lyrics": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>aa<br>aaaaaa<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+		"thumbnail": "c.png"
+	}
+	]
+}
