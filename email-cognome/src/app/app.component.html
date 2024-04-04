@@ -1,0 +1,40 @@
+<div class="container-fluid p-3 bg-dark text-light text-center">
+  <h1><b>INVIA UNA MAIL</b></h1>
+</div>
+
+<div class="container mt-5">
+  <h3 class="text-dark">Scrivi il tuo messaggio:</h3>
+  <form (submit)="salvaEmail()" class="was-validated" style="max-width: 70%; margin: 0 auto;">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <label for="mittente" class="form-label text-dark">Mittente:</label>
+        <input type="email" class="form-control" id="mittente" placeholder="La tua email" name="mittente" required [(ngModel)]="mittente">
+        <div class="valid-feedback text-success">Ottimo!</div>
+        <div class="invalid-feedback text-danger">Per favore, inserisci una email valida.</div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <label for="oggetto" class="form-label text-dark">Oggetto:</label>
+        <input type="text" class="form-control" id="oggetto" placeholder="Oggetto della mail" name="oggetto" required [(ngModel)]="oggetto">
+        <div class="valid-feedback text-success">Va bene!</div>
+        <div class="invalid-feedback text-danger">Inserisci l'oggetto.</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <label for="destinatario" class="form-label text-dark">Destinatario:</label>
+        <input type="email" class="form-control" id="destinatario" placeholder="Email del destinatario" name="destinatario" required [(ngModel)]="destinatario">
+        <div class="valid-feedback text-success">Perfetto!</div>
+        <div class="invalid-feedback text-danger">Inserisci l'email del destinatario.</div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <label for="testo" class="form-label text-dark">Testo:</label>
+        <textarea class="form-control" id="testo" placeholder="Il testo della mail" name="testo" required [(ngModel)]="testo"></textarea>
+        <div class="valid-feedback text-success">Tutto apposto!</div>
+        <div class="invalid-feedback text-danger">Scrivi il testo della mail.</div>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-danger">Invia</button>
+  </form>
+</div>
+
+<app-sent-mail [emails]="emails"></app-sent-mail>
